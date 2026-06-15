@@ -1,0 +1,15 @@
+const hasCompletedAssignment = false;
+
+console.log(
+  AND (isEnrolled && hasCompletedAssignment): ${
+  isEnrolled && hasCompletedAssignment
+}
+);
+
+console.log(
+  OR (isEnrolled || hasCompletedAssignment): ${
+ isEnrolled || hasCompletedAssignment
+}
+);
+
+console.logg(`NOT (!isEnrolled): ${!isEnrolled}`);
