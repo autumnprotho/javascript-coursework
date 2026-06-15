@@ -1,0 +1,18 @@
+const ageAsString = String(age);
+console.log(
+  `Original: ${age} (${typeof age}) → Converted: ${ageAsString} (${typeof ageAsString})` );
+
+const nameAsBoolean = Boolean(fullName);
+console.log(
+  `Original: ${fullName} (${typeof fullName}) → Converted: ${nameAsBoolean} (${typeof nameAsBoolean})` );
+
+const enrolledAsNumber = Number(isEnrolled);
+console.log(
+  `Original: ${isEnrolled} (${typeof isEnrolled}) → Converted: ${enrolledAsNumber} (${typeof enrolledAsNumber})` );
+
+const completedCourseAsNumber = Number(completedCourse);
+console.log(
+  `Original: ${completedCourse} (${typeof completedCourse}) → Converted: ${completedCourseAsNumber} (${typeof completedCourseAsNumber})` );
+
+/* Converting null to a Number results in 0. 
+JavaScript treats null as an empty value during numeric conversion, which is why it becomes 0. */
